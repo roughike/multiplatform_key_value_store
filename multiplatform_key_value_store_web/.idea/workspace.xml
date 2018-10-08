@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed4ec46a-ca0f-4eae-8c51-e7172f854be9" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1855277336">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dart" value="3333" />
+          <entry key="yaml" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dart" value="3333" />
+          <entry key="YAML" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dart" value="27" />
+          <entry key="yaml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dart" value="27" />
+          <entry key="YAML" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../multiplatform_key_value_store/lib/multiplatform_key_value_store.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/example/multiplatform_key_value_store_web_example.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/test/multiplatform_key_value_store_web_test.dart" />
+        <option value="$PROJECT_DIR$/lib/multiplatform_key_value_store_web.dart" />
+        <option value="$PROJECT_DIR$/../multiplatform_key_value_store/lib/multiplatform_key_value_store.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="multiplatform_key_value_store_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform_key_value_store_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multiplatform_key_value_store_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform_key_value_store_web" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multiplatform_key_value_store_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform_key_value_store_web" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multiplatform_key_value_store_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multiplatform_key_value_store_web" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Dart Test.tests in multiplatform_key_value_store_web_test.dart">
+    <configuration name="jee in multiplatform_key_value_store_web_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/multiplatform_key_value_store_web_test.dart" />
+      <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
+      <option name="testName" value="jee" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in multiplatform_key_value_store_web_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/multiplatform_key_value_store_web_test.dart" />
+      <option name="testName" value="multiplatform_key_value_store_web_test.dart" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Dart Test.tests in multiplatform_key_value_store_web_test.dart" />
+      <item itemvalue="Dart Test.jee in multiplatform_key_value_store_web_test.dart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Test.tests in multiplatform_key_value_store_web_test.dart" />
+        <item itemvalue="Dart Test.jee in multiplatform_key_value_store_web_test.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed4ec46a-ca0f-4eae-8c51-e7172f854be9" name="Default Changelist" comment="" />
+      <created>1533202313912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533202313912</updated>
+      <workItem from="1533202315619" duration="7231000" />
+      <workItem from="1533210807440" duration="127000" />
+      <workItem from="1533225245771" duration="492000" />
+      <workItem from="1533644905532" duration="7000" />
+      <workItem from="1536773828388" duration="817000" />
+      <workItem from="1538166433828" duration="559000" />
+      <workItem from="1538167062873" duration="785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.08.02 at 13h 32m 14s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.08.02 at 13h 40m 02s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.08.02 at 13h 44m 47s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.08.02 at 13h 46m 09s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.09.12 at 20h 38m 15s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.09.12 at 20h 39m 45s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.09.12 at 20h 39m 50s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.09.12 at 20h 41m 58s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.09.12 at 20h 42m 42s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_multiplatform_key_value_store_web_test_dart - 2018.09.12 at 20h 46m 32s.xml">
+      <configuration name="tests in multiplatform_key_value_store_web_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10018000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.3298611" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36305732" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32866243" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/Cellar/dart/2.0.0-dev.69.4/libexec/lib/html/dart2js/html_dart2js.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409217">
+          <caret line="27622" column="6" selection-start-line="27622" selection-start-column="6" selection-end-line="27622" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/test-1.3.0/lib/src/frontend/test_on.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/dart/2.0.0/libexec/lib/html/dart2js/html_dart2js.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="27622" column="6" selection-start-line="27622" selection-start-column="6" selection-end-line="27622" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/multiplatform_key_value_store_web_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/multiplatform_key_value_store_web_example.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/multiplatform_key_value_store_web.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../multiplatform_key_value_store/lib/multiplatform_key_value_store.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
