@@ -49,9 +49,8 @@ final prefs = await SharedPreferences.getInstance();
 final kvs = FlutterKeyValueStore(prefs);
 
 ...
-// Time to store some values somewhere in your common business logic!
+// Pass the Flutter specific key-value store to MyBusinessLogic!
 final myBusinessLogic = MyBusinessLogic(kvs);
-myBusinessLogic.storeHelloMessage('John Doe');
 ```
 
 ## key_value_store_web [![pub package](https://img.shields.io/pub/v/key_value_store_web.svg)](https://pub.dartlang.org/packages/key_value_store_web)
@@ -66,7 +65,6 @@ import 'dart:html';
 final kvs = WebKeyValueStore(window.localStorage);
 
 ...
-// Time to store some values somewhere in your common business logic!
+// Pass the web specific key-value store to MyBusinessLogic!
 final myBusinessLogic = MyBusinessLogic(kvs);
-myBusinessLogic.storeHelloMessage('John Doe');
 ```
