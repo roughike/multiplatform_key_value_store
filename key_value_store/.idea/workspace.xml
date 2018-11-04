@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22757bfd-649c-4d8b-8ea6-cb370e0f113d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/multiplatform_key_value_store.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/lib/multiplatform_key_value_store.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/multiplatform_key_value_store_web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/example/multiplatform_key_value_store_web_example.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/lib/multiplatform_key_value_store_web.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/test/multiplatform_key_value_store_web_test.dart" beforeDir="false" />
-    </list>
+    <list default="true" id="22757bfd-649c-4d8b-8ea6-cb370e0f113d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />

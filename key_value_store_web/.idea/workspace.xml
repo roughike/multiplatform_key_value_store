@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed4ec46a-ca0f-4eae-8c51-e7172f854be9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/multiplatform_key_value_store.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/lib/multiplatform_key_value_store.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/multiplatform_key_value_store_web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/example/multiplatform_key_value_store_web_example.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/lib/multiplatform_key_value_store_web.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multiplatform_key_value_store_web/test/multiplatform_key_value_store_web_test.dart" beforeDir="false" />
-    </list>
+    <list default="true" id="ed4ec46a-ca0f-4eae-8c51-e7172f854be9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -279,7 +253,7 @@
       <workItem from="1538166433828" duration="559000" />
       <workItem from="1538167062873" duration="785000" />
       <workItem from="1541319082647" duration="335000" />
-      <workItem from="1541319964222" duration="771000" />
+      <workItem from="1541319964222" duration="1078000" />
     </task>
     <servers />
   </component>
@@ -316,7 +290,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11124000" />
+    <option name="totallyTimeSpent" value="11431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
