@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:html';
 
-import 'package:multiplatform_key_value_store/multiplatform_key_value_store.dart';
+import 'package:key_value_store/key_value_store.dart';
 
 class WebKeyValueStore implements KeyValueStore {
   WebKeyValueStore(this._storage);

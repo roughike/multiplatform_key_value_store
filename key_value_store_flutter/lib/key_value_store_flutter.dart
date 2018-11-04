@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:multiplatform_key_value_store/multiplatform_key_value_store.dart';
+import 'package:key_value_store/key_value_store.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class FlutterKeyValueStore extends KeyValueStore {

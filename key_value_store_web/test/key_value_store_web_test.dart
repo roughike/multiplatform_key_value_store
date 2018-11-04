@@ -2,9 +2,9 @@
 import 'dart:convert';
 import 'dart:html' show Storage;
 
-import 'package:multiplatform_key_value_store_web/multiplatform_key_value_store_web.dart';
-import 'package:test/test.dart';
+import 'package:key_value_store_web/key_value_store_web.dart';
 import 'package:mockito/mockito.dart';
+import 'package:test/test.dart';
 
 class MockStorage extends Mock implements Storage {}
 
@@ -19,10 +19,9 @@ void main() {
     });
 
     test('getKeys', () {
-      when(mockStorage['myKeys'])
-          .thenReturn(json.encode(<String>['key #1', 'key #2']));
+      when(mockStorage.keys).thenReturn(Set.from(['key #1', 'key #2']));
 
-      expect(localStorage.getStringList('myKeys'), ['key #1', 'key #2']);
+      expect(localStorage.getKeys(), ['key #1', 'key #2']);
     });
 
     test('getBool', () {
@@ -55,7 +54,8 @@ void main() {
       when(mockStorage['myStringList'])
           .thenReturn(json.encode(['value #1', 'value #2']));
 
-      expect(localStorage.getStringList('myStringList'), ['value #1', 'value #2']);
+      expect(
+          localStorage.getStringList('myStringList'), ['value #1', 'value #2']);
     });
 
     test('setBool', () {
