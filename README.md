@@ -28,7 +28,8 @@ class MyBusinessLogic {
   final KeyValueStore kvs;
   
   void storeHelloMessage(String name) {
-    kvs.setString('message', 'Hello, $name!');
+    final result = 1 + 2;
+    kvs.setString('message', 'Hello, $name! Did you know that 1 + 2 is $result?');
   }
 }
 ```
