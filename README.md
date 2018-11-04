@@ -18,9 +18,6 @@ You might ask what is the point for this, and that is an entirely valid question
 When you're doing code sharing across Flutter and the web, you can't import platform specific dependencies in your core business logic components.
 So for example, `localStorage` for web or `SharedPreferences` for Flutter in your pure business logic are a no-no.
 
-But you must still be able call the APIs for storing and retrieving data locally in your business logic. 
-Which is exactly where this package comes into play; since the package is just an abstract class, you can import it safely in your core module.
-
 ## key_value_store_flutter
 
 This implements the abstract class defined in `key_value_store` with Flutter-specific implementation. 
@@ -29,6 +26,9 @@ In this case, using `SharedPreferences`.
 To use, pass it `SharedPreferences` from the [shared_preferences](https://pub.dartlang.org/packages/shared_preferences) Flutter plugin package:
 
 ```dart
+import 'package:key_value_store/key_value_store.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 final prefs = await SharedPreferences.getInstance();
 final kvs = FlutterKeyValueStore(prefs);
 
@@ -42,6 +42,9 @@ This is also an implementation of the interface defined in the `key_value_store`
 Pass it `window.localStorage` or `window.sessionStorage` from the `dart:html` package and you're good to go:
 
 ```dart
+import 'package:key_value_store/key_value_store.dart';
+import 'dart:html';
+
 final kvs = WebKeyValueStore(window.localStorage);
 kvs.setString('Hello', 'World!');
 ```
