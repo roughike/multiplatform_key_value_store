@@ -1,10 +1,5 @@
 # key_value_store_flutter
 
-A new Flutter plugin.
+Flutter implementation of `key_value_store` for Multiplatform Dart projects.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
-
-For help on editing plugin code, view the [documentation](https://flutter.io/developing-packages/#edit-plugin-package).
+For more documentation, see: https://github.com/roughike/multiplatform_key_value_store
