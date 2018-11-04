@@ -16,7 +16,22 @@ The `key_value_store` package defines common key-value storage APIs in an abstra
 
 You might ask what is the point for this, and that is an entirely valid question!
 When you're doing code sharing across Flutter and the web, you can't import platform specific dependencies in your core business logic components.
-So for example, `localStorage` for web or `SharedPreferences` for Flutter in your pure business logic are a no-no.
+Using `localStorage` for web or `SharedPreferences` for Flutter in your pure business logic is a no-no.
+
+Here's how you would use the abstract class in your common business logic:
+
+```dart
+import 'package:key_value_store/key_value_store.dart';
+
+class MyBusinessLogic {
+  MyBusinessLogic(this.kvs);
+  final KeyValueStore kvs;
+  
+  void storeHelloMessage(String name) {
+    kvs.setString('message', 'Hello, $name!');
+  }
+}
+```
 
 ## key_value_store_flutter
 
@@ -26,14 +41,15 @@ In this case, using `SharedPreferences`.
 To use, pass it `SharedPreferences` from the [shared_preferences](https://pub.dartlang.org/packages/shared_preferences) Flutter plugin package:
 
 ```dart
-import 'package:key_value_store/key_value_store.dart';
+import 'package:key_value_store_flutter/key_value_store_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final prefs = await SharedPreferences.getInstance();
 final kvs = FlutterKeyValueStore(prefs);
 ...
 // Time to store some values somewhere in your common business logic!
-kvs.setString('Hello', 'World!');
+final myBusinessLogic = MyBusinessLogic(kvs);
+myBusinessLogic.storeHelloMessage('John Doe');
 ```
 
 ## key_value_store_web
@@ -42,11 +58,12 @@ This is also an implementation of the interface defined in the `key_value_store`
 Pass it `window.localStorage` or `window.sessionStorage` from the `dart:html` package and you're good to go:
 
 ```dart
-import 'package:key_value_store/key_value_store.dart';
+import 'package:key_value_store_web/key_value_store_web.dart';
 import 'dart:html';
 
 final kvs = WebKeyValueStore(window.localStorage);
 ...
 // Time to store some values somewhere in your common business logic!
-kvs.setString('Hello', 'World!');
+final myBusinessLogic = MyBusinessLogic(kvs);
+myBusinessLogic.storeHelloMessage('John Doe');
 ```
