@@ -4,6 +4,16 @@ import 'dart:html';
 
 import 'package:key_value_store/key_value_store.dart';
 
+/// A web implementation of a multiplatform key-value store.
+///
+/// To use, pass it a [Storage] from `dart:html` package.
+///
+/// For example:
+///
+/// ```
+/// final kvs = WebKeyValueStore(window.localStorage);
+/// kvs.setString('Hello', 'World!');
+/// ```
 class WebKeyValueStore implements KeyValueStore {
   WebKeyValueStore(this._storage);
   final Storage _storage;

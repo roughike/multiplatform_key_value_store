@@ -1,5 +1,9 @@
 import 'dart:async';
 
+/// A platform agnostic interface for Multiplatform Dart projects.
+///
+/// Meant to be imported in your core business logic project.
+/// Doesn't do anything by itself.
 abstract class KeyValueStore {
   Set<String> getKeys();
 

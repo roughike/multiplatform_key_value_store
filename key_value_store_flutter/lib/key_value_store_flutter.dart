@@ -3,6 +3,18 @@ import 'dart:async';
 import 'package:key_value_store/key_value_store.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+/// A Flutter implementation of a multiplatform key-value store.
+///
+/// To use, pass it [SharedPreferences] from the `shared_preferences` Flutter
+/// plugin package.
+///
+/// For example:
+///
+/// ```
+/// final prefs = await SharedPreferences.getInstance();
+/// final kvs = FlutterKeyValueStore(prefs);
+/// kvs.setString('Hello', 'World!');
+/// ```
 class FlutterKeyValueStore extends KeyValueStore {
   FlutterKeyValueStore(this._preferences);
   final SharedPreferences _preferences;
