@@ -1,4 +1,4 @@
-# Multiplatform key-value store for multiplatform Dart projects
+# Key-value store for multiplatform Dart projects
 
 > What the heck is that?
 
