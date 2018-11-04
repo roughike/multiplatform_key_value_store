@@ -1,7 +1,7 @@
 import 'package:key_value_store_flutter/key_value_store_flutter.dart';
 import 'package:mockito/mockito.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 class MockSharedPrefs extends Mock implements SharedPreferences {}
 
