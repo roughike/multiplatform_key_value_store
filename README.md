@@ -31,8 +31,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 final prefs = await SharedPreferences.getInstance();
 final kvs = FlutterKeyValueStore(prefs);
-
-// Time to store some values!
+...
+// Time to store some values somewhere in your common business logic!
 kvs.setString('Hello', 'World!');
 ```
 
@@ -46,5 +46,7 @@ import 'package:key_value_store/key_value_store.dart';
 import 'dart:html';
 
 final kvs = WebKeyValueStore(window.localStorage);
+...
+// Time to store some values somewhere in your common business logic!
 kvs.setString('Hello', 'World!');
 ```
