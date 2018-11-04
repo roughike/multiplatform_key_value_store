@@ -47,6 +47,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 final prefs = await SharedPreferences.getInstance();
 final kvs = FlutterKeyValueStore(prefs);
+
 ...
 // Time to store some values somewhere in your common business logic!
 final myBusinessLogic = MyBusinessLogic(kvs);
@@ -63,6 +64,7 @@ import 'package:key_value_store_web/key_value_store_web.dart';
 import 'dart:html';
 
 final kvs = WebKeyValueStore(window.localStorage);
+
 ...
 // Time to store some values somewhere in your common business logic!
 final myBusinessLogic = MyBusinessLogic(kvs);
