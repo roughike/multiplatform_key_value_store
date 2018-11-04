@@ -10,7 +10,7 @@ Multiplatform key-value store is like any other key value store, but it's _multi
 
 This repo contains three different folders. Each of them is a Dart package project.
 
-## key_value_store
+## key_value_store [![pub package](https://img.shields.io/pub/v/key_value_store.svg)](https://pub.dartlang.org/packages/key_value_store)
 
 The `key_value_store` package defines common key-value storage APIs in an abstract way without caring about the implementation.
 
@@ -34,7 +34,7 @@ class MyBusinessLogic {
 }
 ```
 
-## key_value_store_flutter
+## key_value_store_flutter [![pub package](https://img.shields.io/pub/v/key_value_store_flutter.svg)](https://pub.dartlang.org/packages/key_value_store_flutter)
 
 This implements the abstract class defined in `key_value_store` with Flutter-specific implementation. 
 In this case, using `SharedPreferences`. 
@@ -54,7 +54,7 @@ final myBusinessLogic = MyBusinessLogic(kvs);
 myBusinessLogic.storeHelloMessage('John Doe');
 ```
 
-## key_value_store_web
+## key_value_store_web [![pub package](https://img.shields.io/pub/v/key_value_store_web.svg)](https://pub.dartlang.org/packages/key_value_store_web)
 
 This is also an implementation of the interface defined in the `key_value_store` package.
 Pass it `window.localStorage` or `window.sessionStorage` from the `dart:html` package and you're good to go:
