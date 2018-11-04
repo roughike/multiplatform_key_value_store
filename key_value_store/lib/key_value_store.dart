@@ -1,7 +1,6 @@
 import 'dart:async';
 
 abstract class KeyValueStore {
-  /// Get all keys for the currently stored key-value pairs.
   Set<String> getKeys();
 
   bool getBool(String key);
