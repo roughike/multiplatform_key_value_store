@@ -26,9 +26,22 @@ Which is exactly where this package comes into play; since the package is just a
 This implements the abstract class defined in `key_value_store` with Flutter-specific implementation. 
 In this case, using `SharedPreferences`. 
 
-Pass it an instance of `SharedPreferences` and you're good to go!
+To use, pass it `SharedPreferences` from the [shared_preferences](https://pub.dartlang.org/packages/shared_preferences) Flutter plugin package:
+
+```dart
+final prefs = await SharedPreferences.getInstance();
+final kvs = FlutterKeyValueStore(prefs);
+
+// Time to store some values!
+kvs.setString('Hello', 'World!');
+```
 
 ## key_value_store_web
 
 This is also an implementation of the interface defined in the `key_value_store` package.
-Pass it `window.localStorage` or `window.sessionStorage` from the `dart:html` package and you're good to go.
+Pass it `window.localStorage` or `window.sessionStorage` from the `dart:html` package and you're good to go:
+
+```dart
+final kvs = WebKeyValueStore(window.localStorage);
+kvs.setString('Hello', 'World!');
+```
