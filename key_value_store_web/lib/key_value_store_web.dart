@@ -19,7 +19,7 @@ class WebKeyValueStore implements KeyValueStore {
   final Storage _storage;
 
   @override
-  Set<String> getKeys() => _storage.keys;
+  Set<String> getKeys() => _storage.keys.toSet();
 
   @override
   bool getBool(String key) => _storage[key] == 'true';
