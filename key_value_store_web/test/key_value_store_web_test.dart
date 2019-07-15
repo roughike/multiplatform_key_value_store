@@ -24,6 +24,12 @@ void main() {
       expect(localStorage.getKeys(), ['key #1', 'key #2']);
     });
 
+    test('getKeys type', () {
+      when(mockStorage.keys).thenReturn(List());
+
+      expect(localStorage.getKeys().runtimeType, Set<String>().runtimeType);
+    });
+
     test('getBool', () {
       when(mockStorage['myTrueBool']).thenReturn(json.encode(true));
       when(mockStorage['myFalseBool']).thenReturn(json.encode(false));
