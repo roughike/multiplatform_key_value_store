@@ -25,17 +25,17 @@ class WebKeyValueStore implements KeyValueStore {
   bool getBool(String key) => _storage[key] == 'true';
 
   @override
-  int getInt(String key) => int.parse(_storage[key]);
+  int getInt(String key) => _storage[key] !=null ? int.parse(_storage[key]) : null;
 
   @override
-  double getDouble(String key) => double.parse(_storage[key]);
+  double getDouble(String key) => _storage[key] !=null ? double.parse(_storage[key]) : null;
 
   @override
   String getString(String key) => _storage[key];
 
   @override
-  List<String> getStringList(String key) =>
-      (json.decode(_storage[key]) as List).cast<String>();
+  List<String> getStringList(String key) => _storage[key] !=null ?
+      (json.decode(_storage[key]) as List).cast<String>() : null;
 
   @override
   Future<bool> setBool(String key, bool value) => _setValue(key, value);
